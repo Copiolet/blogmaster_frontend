@@ -22,7 +22,7 @@ const AddPost = () => {
             alert("please enter email !")
             e.preventDefault()
         } else {
-            await Axios.post("http://localhost:4000/api", { title, description, email })
+            await Axios.post("https://blogmaster.onrender.com/api", { title, description, email })
         }
 
     }
