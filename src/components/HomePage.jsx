@@ -19,7 +19,7 @@ const HomePage = () => {
 
     const cardno = data.length
     useEffect(() => {
-        Axios.get("http://localhost:4000/posts").then((data) => { setdata(data.data.reverse()) })
+        Axios.get("https://blogmaster.onrender.com/posts").then((data) => { setdata(data.data.reverse()) })
     })
 
     let summary;
