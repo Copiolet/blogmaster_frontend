@@ -4,7 +4,6 @@ import NavBar from './NavBar';
 import Axios from 'axios';
 import 'react-quill/dist/quill.snow.css'
 import Button from 'react-bootstrap/Button';
-import Homepage from './HomePage.jsx'
 import Form from 'react-bootstrap/Form';
 
 const AddPost = () => {
@@ -24,7 +23,6 @@ const AddPost = () => {
             e.preventDefault()
         } else {
             await Axios.post("https://blogmaster.onrender.com/api", { title, description, email })
-            render={() => <Homepage />}
         }
 
     }
