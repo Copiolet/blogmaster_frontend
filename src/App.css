@@ -1,0 +1,27 @@
+.link{
+  text-decoration: none;
+  color: white;
+}
+.link:hover{
+  color: white
+}
+
+
+
+#mycards{
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+#parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#child {
+  display: inline-flex;
+  flex: 1;
+  margin-right:1.5em;
+}
