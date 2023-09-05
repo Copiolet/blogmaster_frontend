@@ -7,7 +7,7 @@ const Postdetails = () => {
     const [postInfo, setPostInfo] = useState(null)
     const { id } = useParams();
     useEffect(() => {
-        fetch(`https://blogmaster.onrender.com/${id}`)
+        fetch(`https://blogmaster.onrender.com/post/${id}`)
             .then(response => {
                 response.json().then(postInfo => {
                     setPostInfo(postInfo)
