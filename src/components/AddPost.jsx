@@ -23,6 +23,7 @@ const AddPost = () => {
             e.preventDefault()
         } else {
             await Axios.post("https://blogmaster.onrender.com/api", { title, description, email })
+            window.reload()
         }
 
     }
