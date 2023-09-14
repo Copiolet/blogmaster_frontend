@@ -25,6 +25,10 @@ const HomePage = () => {
     let summary;
     return (
         <div>
+            <head>
+                <meta name="google-site-verification" content="-Chyq1612_ODwMCvygVJCB3-VE-FeObG0mwQfOjcJPM" />
+            </head>
+            <body>
             <NavBar />
             <section>
 
@@ -43,6 +47,7 @@ const HomePage = () => {
                                     <Link to={`/${e._id}`} className="btn btn-primary">Read More</Link>
                                 </div>
                             </div>
+                            </body>
                         </div>
                     );
                 })}
