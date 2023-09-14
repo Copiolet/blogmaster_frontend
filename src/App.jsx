@@ -12,6 +12,8 @@ function App() {
         <Route path='/' element={<HomePage/>} />
         
         <Route path='/add_post' element={<AddPost/>} />
+
+        <Route path='/add_post?' element={<AddPost/>} />
         
         <Route path='/:id' element={<Postdetails/>}/>
         
